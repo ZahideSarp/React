@@ -10,6 +10,7 @@ import ExternalStyling from "./components/03-styles/03-external-styling";
 import ModuleStyling from "./components/03-styles/04-module-styling";
 import Sass from "./components/03-styles/05-sass";
 import DijitalSaatUygulamasi1 from "./components/04-dijital-saat-uygulamasi1/04-dijital-saat-uygulamasi1";
+import Greetings from "./components/05-props/01-greetings";
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
             <ModuleStyling />
             <Sass />
             <DijitalSaatUygulamasi1 />
+            <Greetings/>
         </div>
     )
 };
