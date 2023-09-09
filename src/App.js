@@ -11,12 +11,14 @@ import ModuleStyling from "./components/03-styles/04-module-styling";
 import Sass from "./components/03-styles/05-sass";
 import DijitalSaatUygulamasi1 from "./components/04-dijital-saat-uygulamasi1/04-dijital-saat-uygulamasi1";
 import Greetings from "./components/05-props/01-greetings";
-
+import Children from "./components/05-props/04-children";
+import DijitalSaatUygulamasi2 from "./components/06-dijital-saat-uygulamasi2/06-dijital-saat-uygulamasi2";
+import Image from "./components/07-images/01-image"
 const App = () => {
     return (
         <div>
             <X />
-            <Armutlar />//self closing
+            <Armutlar />
             <Muzlar />
             <Jsx1 />
             <Jsx2 />
@@ -28,7 +30,12 @@ const App = () => {
             <ModuleStyling />
             <Sass />
             <DijitalSaatUygulamasi1 />
-            <Greetings/>
+            <Greetings />
+            <Children>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nesciunt eos facere et repellendus quasi ipsam ab tempore earum porro saepe sapiente nemo asperiores, cupiditate nobis officiis modi, quas minus!
+            </Children>
+            <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
+            <Image/>
         </div>
     )
 };
