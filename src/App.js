@@ -16,7 +16,7 @@ const App = () => {
     return (
         <div>
             <X />
-            <Armutlar />
+            <Armutlar />//self closing
             <Muzlar />
             <Jsx1 />
             <Jsx2 />
