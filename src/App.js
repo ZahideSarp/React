@@ -13,7 +13,8 @@ import DijitalSaatUygulamasi1 from "./components/04-dijital-saat-uygulamasi1/04-
 import Greetings from "./components/05-props/01-greetings";
 import Children from "./components/05-props/04-children";
 import DijitalSaatUygulamasi2 from "./components/06-dijital-saat-uygulamasi2/06-dijital-saat-uygulamasi2";
-import Image from "./components/07-images/01-image"
+import Image from "./components/07-images/01-image";
+import ImageGallery from "./components/07-images/02-image-gallery";
 const App = () => {
     return (
         <div>
@@ -35,9 +36,9 @@ const App = () => {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nesciunt eos facere et repellendus quasi ipsam ab tempore earum porro saepe sapiente nemo asperiores, cupiditate nobis officiis modi, quas minus!
             </Children>
             <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
-            <Image/>
+            <Image />
+            <ImageGallery />
         </div>
     )
 };
-
 export default App;
