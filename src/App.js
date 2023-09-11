@@ -17,6 +17,7 @@ import Image from "./components/07-images/01-image";
 import ImageGallery from "./components/07-images/02-image-gallery";
 import ProfileCard from "./components/08-profile-card/profile-card";
 import BootstrapKlasikYontem from "./components/09-bootstrap/01-bootstrap-klasik-yontem";
+import BootstrapComponents from "./components/09-bootstrap/02-bootstrap-components";
 
 const App = () => {
     return (
@@ -85,6 +86,7 @@ const App = () => {
                 }
             />
             <BootstrapKlasikYontem />
+            <BootstrapComponents/>
         </div>
     )
 };
