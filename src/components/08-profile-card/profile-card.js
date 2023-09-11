@@ -6,7 +6,7 @@ const ProfileCard = (props) => {
     const profileBackgroundStyle = {
         backgroundImage: `url(${imgSrc})`
     }
-    console.log(props.statistics);
+    //console.log(props.statistics);
 
     return (
         <div className="profile-card-container">
