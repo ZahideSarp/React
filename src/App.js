@@ -18,6 +18,10 @@ import ImageGallery from "./components/07-images/02-image-gallery";
 import ProfileCard from "./components/08-profile-card/profile-card";
 import BootstrapKlasikYontem from "./components/09-bootstrap/01-bootstrap-klasik-yontem";
 import BootstrapComponents from "./components/09-bootstrap/02-bootstrap-components";
+import BootstrapButton from "./components/09-bootstrap/03-bootstrap-button";
+import ReactIcons from "./components/10-icons/01-react-icons";
+import MaterialIcons from "./components/10-icons/02-material-icons";
+import Events from "./components/11-events/Events";
 
 const App = () => {
     return (
@@ -87,6 +91,11 @@ const App = () => {
             />
             <BootstrapKlasikYontem />
             <BootstrapComponents/>
+            <BootstrapButton/>
+            <ReactIcons/>
+            <MaterialIcons/>
+            <Events/>
+
         </div>
     )
 };

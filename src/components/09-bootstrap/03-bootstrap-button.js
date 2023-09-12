@@ -1,7 +1,8 @@
-const BootstrapButton = () => {
-    return (
-        <div>BootstrapButton</div>
-    )
-}
+const BootstrapButton = ({ variant, disabled }) => {
 
-export default BootstrapButton
+    return (
+        <button className={`btn ${variant ? `btn-${variant}` : "btn-primary"}`} disabled={disabled}>BootstrapButton</button>
+    )
+};
+
+export default BootstrapButton;
