@@ -21,7 +21,10 @@ import BootstrapComponents from "./components/09-bootstrap/02-bootstrap-componen
 import BootstrapButton from "./components/09-bootstrap/03-bootstrap-button";
 import ReactIcons from "./components/10-icons/01-react-icons";
 import MaterialIcons from "./components/10-icons/02-material-icons";
-import Events from "./components/11-events/Events";
+import Events from "./components/11-events/events";
+import ProductShop from "./components/12-product-shop/product-shop";
+import State from "./components/13-usestate/state";
+import Counter from "./components/14-counter/counter";
 
 const App = () => {
     return (
@@ -90,12 +93,14 @@ const App = () => {
                 }
             />
             <BootstrapKlasikYontem />
-            <BootstrapComponents/>
-            <BootstrapButton/>
-            <ReactIcons/>
-            <MaterialIcons/>
-            <Events/>
-
+            <BootstrapComponents />
+            <BootstrapButton variant="outline-primary" disabled />
+            <ReactIcons />
+            <MaterialIcons />
+            <Events />
+            <ProductShop />
+            <State />
+            <Counter />
         </div>
     )
 };

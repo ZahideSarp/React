@@ -3,10 +3,10 @@ import kopukImage from "../../assets/img/kopuk.jpg"
 const Image = () => {
     return (
         <div>
-            <h2>STATIK GORUNTU YONTEMIYLE</h2>
+            <h2>STATIK GORUNTU</h2>
             <img src="./img/image1.jpg" alt="northern lights" />
 
-            <h2>HARICI GORUNTU </h2>
+            <h2>HARICI GORUNTU</h2>
             <img src="https://fastly.picsum.photos/id/947/536/354.jpg?hmac=SWrzGjeEE8tsTHphNhl2ma3QToFb3nDd5hLIbtWX69s" alt="" />
 
 

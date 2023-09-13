@@ -28,4 +28,5 @@ const Events = () => {
         </Container>
     )
 }
+
 export default Events;
