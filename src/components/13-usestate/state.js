@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button, ButtonGroup, Container } from 'react-bootstrap';
 
 const State = () => {
-    const [mode, setMode] = useState("light");
+    const [mode, setMode] = useState();
 
     let classNames = "bg-dark text-white p-5 text-center";
 
@@ -12,7 +12,10 @@ const State = () => {
 
     let number = 10;
 
-    console.log(mode);
+    const handleDarkMode = () => {
+        setMode("dark");
+        console.log(mode);
+    }
 
     // setMode("dark");
 
@@ -21,7 +24,7 @@ const State = () => {
             <h1 className='text-uppercase'>DARK/LIGHT Mode</h1>
             <ButtonGroup>
                 <Button variant='danger' onClick={() => number += 5}>Dark Mode</Button>
-                <Button variant='success' onClick={() => setMode("dark")}>Light Mode</Button>
+                <Button variant='success' onClick={handleDarkMode}>Light Mode</Button>
 
             </ButtonGroup>
             <p className='fs-2'>
