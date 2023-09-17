@@ -26,7 +26,7 @@ const Fetch1 = () => {
             <ListGroup>
                 {
                     users.map(user => {
-                        console.log(user);
+                        // console.log(user);
                         return (
                             <ListGroup.Item key={user.id}>
                                 {user.name}
