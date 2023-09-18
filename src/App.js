@@ -106,7 +106,7 @@ const App = () => {
             <BootstrapComponents />
             <BootstrapButton variant="outline-primary" disabled />
             <ReactIcons />
-            {/* <MaterialIcons /> */}
+           <MaterialIcons /> 
             <Events />
             <ProductShop />
             <State />

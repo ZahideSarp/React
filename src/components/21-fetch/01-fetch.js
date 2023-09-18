@@ -11,7 +11,7 @@ const Fetch1 = () => {
             headers: {
                 "Content-Type": "application/json",
                 "Authorization": "Bearer djkgnirtugidtjnhkfhnujfithujfiyjhfikh"
-            }
+            }/*eger 2. parametreyi bos birakilirsa get islemi gerceklestirir. */
         })
             .then(response => response.json())
             .then(data => {
