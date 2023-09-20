@@ -36,6 +36,7 @@ import Fetch1 from "./components/21-fetch/01-fetch";
 import Fetch2 from "./components/21-fetch/02-fetch";
 import Countries from "./components/22-axios/countries";*/}
 import Form1 from "./components/24-forms/01-form";
+import Form2 from "./components/24-forms/02-form";
 
 const App = () => {
     return (
@@ -122,7 +123,9 @@ const App = () => {
             <Fetch1 />
             <Fetch2 />
             <Countries />*/}
-            <Form1/>
+            <Form1 />
+            <Form2/>
+           
         </div>
     )
 };
