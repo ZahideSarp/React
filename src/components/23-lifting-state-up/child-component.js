@@ -10,4 +10,4 @@ const ChildComponent = (props) => {
     )
 }
 
-export default ChildComponent
+export default ChildComponent;

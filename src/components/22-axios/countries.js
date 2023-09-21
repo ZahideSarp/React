@@ -13,8 +13,6 @@ const Countries = () => {
             .then(response => setCountries(response.data))
     }, []);
 
-    console.log(countries);
-
     return (
         <Container className='my-5'>
             <h1>Axios — Countries API</h1>

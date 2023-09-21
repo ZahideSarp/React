@@ -7,17 +7,14 @@ const Form1 = () => {
 
 
     const handleChange = (e) => {
-        console.log("e.target.value: ", e.target.value)
+        // console.log("e.target.value: ", e.target.value)
         setUsername(e.target.value)
     };
 
-    console.log("render oldu mu?")
+    // console.log("render oldu mu?")
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
-        console.log("username: ", username)
-
         await axios.post("https://jsonplaceholder.typicode.com/users", {
             username: username
         })
@@ -35,7 +32,7 @@ const Form1 = () => {
                     value={username}
                     onChange={handleChange}
                 />
-                <button>SEND</button>
+                <button type='submit'>SEND</button>
             </form>
         </Container>
     )

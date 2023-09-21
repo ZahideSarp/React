@@ -5,8 +5,9 @@ class ClassTypeComponent extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {counter: 0} 
-    
+        this.state = {
+            counter: 0
+        }
     }
 
     componentDidUpdate(prevProps, prevState) {
@@ -15,7 +16,8 @@ class ClassTypeComponent extends Component {
         if (prevState.counter !== this.state.counter) {
            // console.log("CTC: counter state'i degisti")
         }
-    }   
+    }
+
     componentDidMount() {
         //  console.log("CTC: component mount edildiginde yani ilk render gerceklestikten sonra calisir")
     }
@@ -32,7 +34,7 @@ class ClassTypeComponent extends Component {
             <Container>
                 <h1>CLASS TURUNDE COMPONENTLER</h1>
                 <p>Class turunde componentler, fonksiyon turunde componentlerin yerine kullanilabilir. Ancak class turunde componentlerin kendi icinde state tutabildigi icin, fonksiyon turunde componentlerden daha fazla ozellik barindirir.</p>
-                <Button onClick={() => this.setState(prev =>({ counter: prev.counter + 1 }) )}>+</Button>
+                <Button onClick={() => this.setState(prev => ({ counter: prev.counter + 1 }))}>+</Button>
                 <span>{this.state.counter}</span>
             </Container>
         )

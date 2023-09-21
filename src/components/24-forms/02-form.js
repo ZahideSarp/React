@@ -9,7 +9,7 @@ const Form2 = () => {
     // const ikinciSayiRef = useRef(null);
 
     const toplam = +firstNumber + +secondNumber;
-    console.log("render")
+    // console.log("render")
 
 
     // const handleClick = () => {

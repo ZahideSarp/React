@@ -37,7 +37,7 @@ const Form4 = () => {
     const handleChange = (e) => {
         // const [name, value] = e.target;
 
-        console.log(e.target.checked);
+        // console.log(e.target.checked);
 
         setFormData(prev => ({
             ...prev,
@@ -50,7 +50,7 @@ const Form4 = () => {
         }))
     };
 
-    console.log(formData['ad']);
+    // console.log(formData['ad']);
     // formData.ad === formData['ad']
 
 
