@@ -10,7 +10,7 @@ function FunctionTypeComponent() {
         // console.log("FTC: component mount edildiginde yani ilk render gerceklestikten sonra calisir")
 
         return () => {
-            console.log("FTC: component unmount edildiginde yani componentin kaldirildigi durumlarda calisir");
+            // console.log("FTC: component unmount edildiginde yani componentin kaldirildigi durumlarda calisir");
         }
     }, []);
 
