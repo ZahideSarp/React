@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button, ButtonGroup, Container } from 'react-bootstrap'
 
+
 const Counter = () => {
     const [counter, setCounter] = useState(0);
 
@@ -41,6 +42,7 @@ const Counter = () => {
                     className='fs-1'
                     onClick={handleCounter}
                 >Sifirla</Button>
+                
             </ButtonGroup>
         </Container>
     )

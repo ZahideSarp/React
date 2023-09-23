@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./04-dijital-saat-uygulamasi1.scss";
+
 
 const DijitalSaatUygulamasi1 = () => {
     const tarih = new Date();
@@ -16,6 +18,7 @@ const DijitalSaatUygulamasi1 = () => {
             <div>
                 <div className="date">{gun} {ayArrayleri[ay]} {yil}</div>
                 <div className="day">{gunler[tarih.getDay()]}, AKSAM</div>
+               
             </div>
         </div>
     )
